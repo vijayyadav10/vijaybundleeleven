@@ -8,5 +8,5 @@
 <@wp.currentWidget param="config" configParam="name" var="configName" />
 <@wp.currentWidget param="config" configParam="nameTwo" var="configNameTwo" />
 <@wp.currentWidget param="config" configParam="selectedTemplateId" var="configSelectedTemplateId" />
-<@wp.currentWidget param="config" configParam="selectedContentId" var="configContentTemplateId" />
-<my-widget name="${configName}" nameTwo="${configNameTwo}" selectedTemplateId="${configSelectedTemplateId}" selectedContentId=${configContentTemplateId} />
+<@wp.currentWidget param="config" configParam="selectedContentId" var="configSelectedContentId" />
+<my-widget name="${configName}" nameTwo="${configNameTwo}" selectedTemplateId="${configSelectedTemplateId}" selectedContentId=${configSelectedContentId} />
